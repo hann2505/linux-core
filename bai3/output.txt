@@ -1,0 +1,6 @@
+total 40
+-rwxrwxr-x 1 mia mia 15272 May 13 11:13 fork_ls
+-rw-rw-r-- 1 mia mia  1313 May 13 11:13 fork_ls.c
+-rwxrwxr-x 1 mia mia 15096 May 13 11:05 network_control
+-rw-rw-r-- 1 mia mia  1443 May 13 11:04 network_control.c
+-rw-rw-r-- 1 mia mia     0 May 13 11:13 output.txt
