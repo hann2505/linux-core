@@ -31,6 +31,7 @@ int main(int argc, char *argv[]) {
     FILE *fp = fopen(filepath, "rb");
     if (!fp) { perror("fopen"); return 1; }
 
+    // Lấy kích thước file cần gửi
     struct stat st;
     if (stat(filepath, &st) < 0) { perror("stat"); fclose(fp); return 1; }
     long filesize = st.st_size;
